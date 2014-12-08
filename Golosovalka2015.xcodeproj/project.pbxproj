@@ -14,6 +14,8 @@
 		A3A1B4241A320D3E0071191A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3A1B4231A320D3E0071191A /* Images.xcassets */; };
 		A3A1B4271A320D3E0071191A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3A1B4251A320D3E0071191A /* LaunchScreen.xib */; };
 		A3A1B4331A320D3E0071191A /* Golosovalka2015Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A1B4321A320D3E0071191A /* Golosovalka2015Tests.swift */; };
+		A3BCD1831A3499D7005E957B /* Screen Shot 2014-12-07 at 17.19.11.png in Resources */ = {isa = PBXBuildFile; fileRef = A3BCD1821A3499D7005E957B /* Screen Shot 2014-12-07 at 17.19.11.png */; };
+		A3BCD1851A349A5D005E957B /* Screen Shot 2014-12-07 at 17.21.42.png in Resources */ = {isa = PBXBuildFile; fileRef = A3BCD1841A349A5D005E957B /* Screen Shot 2014-12-07 at 17.21.42.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		A3A1B42C1A320D3E0071191A /* Golosovalka2015Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Golosovalka2015Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3A1B4311A320D3E0071191A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A3A1B4321A320D3E0071191A /* Golosovalka2015Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Golosovalka2015Tests.swift; sourceTree = "<group>"; };
+		A3BCD1821A3499D7005E957B /* Screen Shot 2014-12-07 at 17.19.11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2014-12-07 at 17.19.11.png"; sourceTree = "<group>"; };
+		A3BCD1841A349A5D005E957B /* Screen Shot 2014-12-07 at 17.21.42.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2014-12-07 at 17.21.42.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +88,8 @@
 				A3A1B41E1A320D3E0071191A /* SecondViewController.swift */,
 				A3A1B4201A320D3E0071191A /* Main.storyboard */,
 				A3A1B4231A320D3E0071191A /* Images.xcassets */,
+				A3BCD1821A3499D7005E957B /* Screen Shot 2014-12-07 at 17.19.11.png */,
+				A3BCD1841A349A5D005E957B /* Screen Shot 2014-12-07 at 17.21.42.png */,
 				A3A1B4251A320D3E0071191A /* LaunchScreen.xib */,
 				A3A1B4181A320D3E0071191A /* Supporting Files */,
 			);
@@ -198,6 +204,8 @@
 				A3A1B4221A320D3E0071191A /* Main.storyboard in Resources */,
 				A3A1B4271A320D3E0071191A /* LaunchScreen.xib in Resources */,
 				A3A1B4241A320D3E0071191A /* Images.xcassets in Resources */,
+				A3BCD1831A3499D7005E957B /* Screen Shot 2014-12-07 at 17.19.11.png in Resources */,
+				A3BCD1851A349A5D005E957B /* Screen Shot 2014-12-07 at 17.21.42.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +351,7 @@
 				INFOPLIST_FILE = Golosovalka2015/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -353,6 +362,7 @@
 				INFOPLIST_FILE = Golosovalka2015/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -409,6 +419,7 @@
 				A3A1B4381A320D3E0071191A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A3A1B4391A320D3E0071191A /* Build configuration list for PBXNativeTarget "Golosovalka2015Tests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +428,7 @@
 				A3A1B43B1A320D3E0071191A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

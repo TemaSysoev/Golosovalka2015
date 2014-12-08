@@ -10,38 +10,32 @@ import UIKit
 
 class SecondViewController: UIViewController , UITextFieldDelegate{
     
-    @IBOutlet weak var first_text: UITextField!
-
+    @IBOutlet weak var firsttext: UITextField!
+    
     @IBOutlet weak var sharetext: UIButton!
     @IBOutlet weak var buttonshare: UIButton!
-    @IBOutlet weak var second_text: UITextField!
-    @IBOutlet weak var th_text: UITextField!
-    @IBOutlet weak var f_text: UITextField!
-    @IBOutlet weak var fifth_text: UITextField!
-    @IBOutlet weak var s_text: UITextField!
-    @IBOutlet weak var se_text: UITextField!
-    @IBOutlet weak var e_text: UITextField!
-    @IBOutlet weak var n_text: UITextField!
-    @IBOutlet weak var t_text: UITextField!
-    @IBOutlet weak var scrol1: UIScrollView!
-    @IBOutlet weak var buttoneraser: UIButton!
+    @IBOutlet weak var secondtext: UITextField!
+    @IBOutlet weak var thtext: UITextField!
+    @IBOutlet weak var ftext: UITextField!
+    @IBOutlet weak var fifthtext: UITextField!
+    @IBOutlet weak var stext: UITextField!
+    @IBOutlet weak var setext: UITextField!
+    @IBOutlet weak var etext: UITextField!
+    @IBOutlet weak var ntext: UITextField!
+    @IBOutlet weak var ttext: UITextField!
+    @IBOutlet weak var eltext: UITextField!
+    @IBOutlet weak var twtext: UITextField!
+    @IBOutlet weak var thitext: UITextField!
+    @IBOutlet weak var fotext: UITextField!
+    @IBOutlet weak var fitext: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        self.first_text.delegate = self;
-        self.second_text.delegate = self;
-        self.th_text.delegate = self;
-        self.f_text.delegate = self;
-        self.fifth_text.delegate = self;
-        self.s_text.delegate = self;
-        self.se_text.delegate = self;
-        self.e_text.delegate = self;
-        self.n_text.delegate = self;
-         self.t_text.delegate = self;
-        }
+            }
     @IBAction func shareText(sender: UIButton) {
         let activityViewController = UIActivityViewController(
-            activityItems: [first_text.text, second_text.text, th_text.text,f_text.text, fifth_text.text, s_text.text, se_text.text, e_text.text, n_text.text, t_text.text as NSString],
+            activityItems: [firsttext.text, secondtext.text, thtext.text,ftext.text, fifthtext.text, stext.text, setext.text, etext.text, ntext.text, ttext.text, eltext.text, twtext.text, thitext.text, fotext.text, fitext.text as NSString],
             applicationActivities: nil)
         
         
@@ -52,9 +46,9 @@ class SecondViewController: UIViewController , UITextFieldDelegate{
         
         // Dispose of any resources that can be recreated.
         
-        first_text.delegate = self
+        firsttext.delegate = self
         func textFieldShouldReturn(textField: UITextField!) -> Bool {
-            first_text.resignFirstResponder()
+            firsttext.resignFirstResponder()
             var activityViewController:UIActivityViewController?
             
             
@@ -67,7 +61,7 @@ class SecondViewController: UIViewController , UITextFieldDelegate{
         textField.resignFirstResponder()
         return true;
     }
-
-
+    
+    
 }
 
